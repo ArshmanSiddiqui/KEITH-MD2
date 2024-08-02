@@ -6,7 +6,7 @@ global.audio = "";
 global.video = "";
 global.port = process.env.PORT;
 global.appUrl = process.env.APP_URL || "";
-global.email = "keizzakeith@gmail.com";
+global.email = "apgking208@gmail.com";
 global.location = "Migori.Kenya.";
 global.mongodb = process.env.MONGODB_URI || "";
 global.allowJids = process.env.ALLOW_JID || "null";
@@ -14,21 +14,21 @@ global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
 global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Nairobi";
 global.github = process.env.GITHUB || "https://github.com/Keithkeizzah/KEITH-MD2";
-global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029Vaan9TF9Bb62l8wpoD47";
-global.website = process.env.GURL || "https://whatsapp.com/channel/0029Vaan9TF9Bb62l8wpoD47";
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/8f30391e98707c9344db0.jpg";
-global.devs = "254748387615";
-global.sudo = process.env.SUDO || "254748387615";
-global.owner = process.env.OWNER_NUMBER || "254748387615";
+global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VakBHyrAYlUIPoj8es1n";
+global.website = process.env.GURL || "https://whatsapp.com/channel/0029VakBHyrAYlUIPoj8es1n";
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/327d2ddca14db518b59e1.jpg";
+global.devs = "923281514844";
+global.sudo = process.env.SUDO || "263778389057,2348169546065,2348162139814,2349066696753";
+global.owner = process.env.OWNER_NUMBER || "923281514844";
 global.style = process.env.STYLE || "3";
-global.gdbye = process.env.GOODBYE || "true";
-global.wlcm = process.env.WELCOME || "true";
+global.gdbye = process.env.GOODBYE || "false";
+global.wlcm = process.env.WELCOME || "false";
 global.warncount = process.env.WARN_COUNT || 3;
 global.disablepm = process.env.DISABLE_PM || "false";
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
 global.MsgsInLog = process.env.MSGS_IN_LOG || "true";
-global.userImages = process.env.USER_IMAGES || "";
-global.waPresence = process.env.WAPRESENCE || "online";
+global.userImages = process.env.USER_IMAGES || "https://telegra.ph/file/327d2ddca14db518b59e1.jpg";
+global.waPresence = process.env.WAPRESENCE || "offline";
 global.readcmds = process.env.READ_COMMAND || "false";
 global.readmessage = process.env.READ_MESSAGE || "false";
 global.readmessagefrom = process.env.READ_MESSAGE_FROM || "";
@@ -48,11 +48,11 @@ module.exports = {
   HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || " 𝐊𝐄𝐈𝐓𝐇 𝐌𝐃",
-  author: process.env.PACK_AUTHER || "𝐊𝐄𝐈𝐓𝐇",
-  packname: process.env.PACK_NAME || "👁",
-  botname: process.env.BOT_NAME || "𝐊𝐄𝐈𝐓𝐇-𝐌𝐃",
-  ownername: process.env.OWNER_NAME || "keithkeizzah",
+  caption: process.env.CAPTION || " Soul Society by Aizen ™`",
+  author: process.env.PACK_AUTHER || "Kyoka Suigetsu",
+  packname: process.env.PACK_NAME || "Shikai",
+  botname: process.env.BOT_NAME || "Soul Society",
+  ownername: process.env.OWNER_NAME || "Aizen",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
